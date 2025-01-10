@@ -1,0 +1,164 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(240, 247, 249);
+    
+}
+#image{
+    width: 80px;
+    
+}
+.nav-heading{
+    color:white;
+    display: inline-block;
+    position: absolute;
+    left:20px;
+}
+
+.searchbar{
+    position: relative;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 0px;
+    width: 800px;
+    border-radius: 5px;
+}
+.BTN{
+    position: absolute;
+    top:25px
+}
+li{
+    display: inline;
+    list-style: none;
+   margin-left: 30px;
+   
+}
+.list{
+    border: 2px solid;
+    background-color: rgb(53, 95, 96);
+    color:white
+}
+.LIST:hover{
+    border:2px solid white;
+    padding: 2px;
+    border-radius: 5px;
+    cursor: pointer;   
+}
+a{
+    text-decoration: none;
+}
+.box1{
+    text-align: center;
+    background-color: rgb(41, 74, 97);
+    border-top: 2px;
+    border-bottom: 2px;
+    height: 50px;
+
+}
+.box2{
+    margin-top: 6px;
+    margin-bottom: 2px solid gray;
+
+}
+#link:hover{
+ color: chartreuse;
+ 
+}
+.left-column{
+    border: 2px solid white;
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 1600px;
+    height:1500px;
+    background-color: white;
+    display: inline-block;
+}
+#nav-button:hover{
+    border: 2px solid white;
+}
+#nav-button:hover{
+    border: 2px solid white;
+}
+
+
+#nav-head:hover{
+    border: 2px solid white;
+}
+
+.navbar-brand h2 {
+    font-size: 1.5rem;
+}
+.nav-heading span {
+    font-size: small;
+}
+.searchbar {
+    width: 100%;
+    max-width: 400px;
+}
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+}
+.card img {
+    margin: auto;
+   
+}
+.card-text {
+    text-align: center;
+}
+
+
+@media (max-width: 576px) {
+    .nav-heading {
+        font-size: 1rem;
+    }
+    .searchbar {
+        width: 100%;
+    }
+    #category-headings {
+        text-align: center;
+    }
+    .LIST {
+        display: inline-block;
+        font-size: 0.9rem;
+        padding: 5px;
+    }
+    .footer ul {
+        padding: 0;
+    }
+    .footer ul li {
+        font-size: 0.8rem;
+    }
+}
+
+.navbar-brand h2 {
+    font-size: 1.5rem;
+    margin: 0;
+}
+.nav-heading span {
+    font-size: 1rem;
+}
+.searchbar {
+    width: 100%;
+    max-width: 300px;
+}
+@media (max-width: 576px) {
+    .navbar-brand h2 {
+        font-size: 1.2rem;
+    }
+    .searchbar {
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .images{
+        font-size: 1rem;
+        max-width: 400px;
+
+    }
+}
+@media screen and (max-width) {
+    .LIST{
+        font-size: 1.1em;
+    }
+}
